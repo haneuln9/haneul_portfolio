@@ -6,12 +6,14 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <title>아디다스 공식 온라인 스토어</title>
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/index.css">
     <!--슬라이드-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    
+    <!--style-->
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/respnsive.css">
 </head>
 <body>
     <header>
@@ -27,426 +29,726 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
-            <nav><!--nav 시작-->
-                <h1><a href="#"><img src="./imges/logo.png" alt=""></a></h1>
+            <div class="top">
+                <a href="#" class="m_nav">
+                    <span></span><span></span><span></span>
+                </a>
+                <h1><a href="#"><img src="./imges/rogo_1.png" alt=""></a></h1>
+                <!--nav 시작 데스크탑, 태블릿-->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#" class="name">MEN</a>
+                            <div class="sub">
+                                <ul class="sub_1">
+                                    <li><a href="#">베스트 셀러</a></li>
+                                    <li><a href="#">신상품</a></li>
+                                    <li><a href="#"><em>Y-3 Collection</em></a></li>
+                                    <li><a href="#"><em>Impossible is Nothing</em></a></li>
+                                    <li><a href="#"><em>SEOUL</em></a></li>
+                                    <li><a href="#"><em>SPECIAL DROP</em></a></li>
+                                    <li><a href="#"><em>Only at adidas</em></a></li>
+                                    <li><a href="#">아디다스 블로그</a></li>
+                                    <li><a href="#">세일</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>신발</span></a></li>
+                                    <li><a href="#">오리지널스</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">아웃도어</a></li>
+                                    <li><a href="#">트레이닝</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">슬러퍼/샌들</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">스포츠웨어</a></li>
+                                    <li><a href="#">스케이트보딩</a></li>
+                                    <li><a href="#">8만원 이하 제품</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>의류</span></a></li>
+                                    <li><a href="#">자켓</a></li>
+                                    <li><a href="#">축구 저지</a></li>
+                                    <li><a href="#">후디/스웨트셔츠</a></li>
+                                    <li><a href="#">티셔츠</a></li>
+                                    <li><a href="#">트랙수트/트랙탑</a></li>
+                                    <li><a href="#">스포츠웨어</a></li>
+                                    <li><a href="#">팬츠</a></li>
+                                    <li><a href="#">반바지</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>용품</span></a></li>
+                                    <li><a href="#">양말</a></li>
+                                    <li><a href="#">모자</a></li>
+                                    <li><a href="#">가방</a></li>
+                                    <li><a href="#">공</a></li>
+                                    <li><a href="#">장갑</a></li>
+                                    <li><a href="#">벨트</a></li>
+                                    <li><a href="#">헤드폰</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>스포츠</span></a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">아웃도어</a></li>
+                                    <li><a href="#">트레이닝</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">스케이트보딩</a></li>
+                                    <li><a href="#">수영</a></li>
+                                    <li><a href="#">사이클링</a></li>
+                                    <li><a href="#">야구</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="name">WOMEN</a>
+                            <div class="sub">
+                                <ul class="sub_1">
+                                    <li><a href="#">베스트 셀러</a></li>
+                                    <li><a href="#">신상품</a></li>
+                                    <li><a href="#"><em>Y-3 Collection</em></a></li>
+                                    <li><a href="#"><em>Impossible is Nothing</em></a></li>
+                                    <li><a href="#"><em>SEOUL</em></a></li>
+                                    <li><a href="#"><em>SPECIAL DROP</em></a></li>
+                                    <li><a href="#"><em>Only at adidas</em></a></li>
+                                    <li><a href="#">아디다스 블로그</a></li>
+                                    <li><a href="#">세일</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>신발</span></a></li>
+                                    <li><a href="#">오리지널스</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">아웃도어</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">슬러퍼/샌들</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">스포츠웨어</a></li>
+                                    <li><a href="#">스케이트보딩</a></li>
+                                    <li><a href="#">8만원 이하 제품</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>의류</span></a></li>
+                                    <li><a href="#">자켓</a></li>
+                                    <li><a href="#">후디/스웨트셔츠</a></li>
+                                    <li><a href="#">티셔츠</a></li>
+                                    <li><a href="#">트랙수트/트랙탑</a></li>
+                                    <li><a href="#">스포츠웨어</a></li>
+                                    <li><a href="#">스포츠브라</a></li>
+                                    <li><a href="#">팬츠</a></li>
+                                    <li><a href="#">레깅스</a></li>
+                                    <li><a href="#">반바지/숏팬츠</a></li>
+                                    <li><a href="#">스커트</a></li>
+                                    <li><a href="#">원피스</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>용품</span></a></li>
+                                    <li><a href="#">양말</a></li>
+                                    <li><a href="#">모자</a></li>
+                                    <li><a href="#">가방</a></li>
+                                    <li><a href="#">공</a></li>
+                                    <li><a href="#">장갑</a></li>
+                                    <li><a href="#">벨트</a></li>
+                                    <li><a href="#">헤드폰</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>스포츠</span></a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">아웃도어</a></li>
+                                    <li><a href="#">트레이닝</a></li>
+                                    <li><a href="#">요가</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">스케이트보딩</a></li>
+                                    <li><a href="#">수영</a></li>
+                                    <li><a href="#">사이클링</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="name">KIDS</a>
+                            <div class="sub">
+                                <ul class="sub_1">
+                                    <li><a href="#">베스트 셀러</a></li>
+                                    <li><a href="#">신상품</a></li>
+                                    <li></li>
+                                    <li><a href="#"><em>Only at adidas</em></a></li>
+                                    <li></li>
+                                    <li><a href="#"><em>Impossible is Nothing</em></a></li>
+                                    <li></li>
+                                    <li><a href="#">아디다스 블로그</a></li>
+                                    <li></li>
+                                    <li><a href="#">6만원 이하 신발</a></li>
+                                    <li><a href="#">세일</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>신발</span></a></li>
+                                    <li><a href="#">인펀트<em>(110~160mm)</em></a></li>
+                                    <li><a href="#">키즈<em>(170~215mm)</em></a></li>
+                                    <li><a href="#">주니어<em>(220~245mm)</em></a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>의류</span></a></li>
+                                    <li><a href="#">상의</a></li>
+                                    <li><a href="#">하의</a></li>
+                                    <li><a href="#">트랙수트</a></li>
+                                    <li><a href="#">레깅스</a></li>
+                                    <li><a href="#">스커트/드레스</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>용품</span></a></li>
+                                    <li><a href="#">가방</a></li>
+                                    <li><a href="#">모자</a></li>
+                                    <li><a href="#">양말</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>컬렉션</span></a></li>
+                                    <li><a href="#">레고</a></li>
+                                    <li><a href="#">슈퍼스타</a></li>
+                                    <li><a href="#">스탠스미스</a></li>
+                                    <li><a href="#">키즈 골프화</a></li>
+                                    <li><a href="#">스포츠웨어</a></li>
+                                    <li><a href="#">슬라이드/샌들</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <a href="#" class="name"><span>SPORTS</span></a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">베스트 셀러</a></li>
+                                    <li><a href="#">신상품</a></li>
+                                    <li><a href="#"><em>Y-3 Collection</em></a></li>
+                                    <li><a href="#"><em>Impossible is Nothing</em></a></li>
+                                    <li><a href="#"><em>SEOUL</em></a></li>
+                                    <li><a href="#"><em>SPECIAL DROP</em></a></li>
+                                    <li><a href="#"><em>Only at adidas</em></a></li>
+                                    <li><a href="#">아디다스 블로그</a></li>
+                                    <li><a href="#">세일</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>신발</span></a></li>
+                                    <li><a href="#">오리지널스</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">아웃도어</a></li>
+                                    <li><a href="#">트레이닝</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">슬러퍼/샌들</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">스포츠웨어</a></li>
+                                    <li><a href="#">스케이트보딩</a></li>
+                                    <li><a href="#">8만원 이하 제품</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>의류</span></a></li>
+                                    <li><a href="#">자켓</a></li>
+                                    <li><a href="#">축구 저지</a></li>
+                                    <li><a href="#">후디/스웨트셔츠</a></li>
+                                    <li><a href="#">티셔츠</a></li>
+                                    <li><a href="#">트랙수트/트랙탑</a></li>
+                                    <li><a href="#">스포츠웨어</a></li>
+                                    <li><a href="#">팬츠</a></li>
+                                    <li><a href="#">반바지</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>용품</span></a></li>
+                                    <li><a href="#">양말</a></li>
+                                    <li><a href="#">모자</a></li>
+                                    <li><a href="#">가방</a></li>
+                                    <li><a href="#">공</a></li>
+                                    <li><a href="#">장갑</a></li>
+                                    <li><a href="#">벨트</a></li>
+                                    <li><a href="#">헤드폰</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>스포츠</span></a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">아웃도어</a></li>
+                                    <li><a href="#">트레이닝</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">스케이트보딩</a></li>
+                                    <li><a href="#">수영</a></li>
+                                    <li><a href="#">사이클링</a></li>
+                                    <li><a href="#">야구</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="name"><span>BRANDS</span></a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#">베스트 셀러</a></li>
+                                    <li><a href="#">신상품</a></li>
+                                    <li><a href="#"><em>Y-3 Collection</em></a></li>
+                                    <li><a href="#"><em>Impossible is Nothing</em></a></li>
+                                    <li><a href="#"><em>SEOUL</em></a></li>
+                                    <li><a href="#"><em>SPECIAL DROP</em></a></li>
+                                    <li><a href="#"><em>Only at adidas</em></a></li>
+                                    <li><a href="#">아디다스 블로그</a></li>
+                                    <li><a href="#">세일</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>신발</span></a></li>
+                                    <li><a href="#">오리지널스</a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">아웃도어</a></li>
+                                    <li><a href="#">트레이닝</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">슬러퍼/샌들</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">스포츠웨어</a></li>
+                                    <li><a href="#">스케이트보딩</a></li>
+                                    <li><a href="#">8만원 이하 제품</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>의류</span></a></li>
+                                    <li><a href="#">자켓</a></li>
+                                    <li><a href="#">축구 저지</a></li>
+                                    <li><a href="#">후디/스웨트셔츠</a></li>
+                                    <li><a href="#">티셔츠</a></li>
+                                    <li><a href="#">트랙수트/트랙탑</a></li>
+                                    <li><a href="#">스포츠웨어</a></li>
+                                    <li><a href="#">팬츠</a></li>
+                                    <li><a href="#">반바지</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>용품</span></a></li>
+                                    <li><a href="#">양말</a></li>
+                                    <li><a href="#">모자</a></li>
+                                    <li><a href="#">가방</a></li>
+                                    <li><a href="#">공</a></li>
+                                    <li><a href="#">장갑</a></li>
+                                    <li><a href="#">벨트</a></li>
+                                    <li><a href="#">헤드폰</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#"><span>스포츠</span></a></li>
+                                    <li><a href="#">러닝</a></li>
+                                    <li><a href="#">아웃도어</a></li>
+                                    <li><a href="#">트레이닝</a></li>
+                                    <li><a href="#">축구</a></li>
+                                    <li><a href="#">농구</a></li>
+                                    <li><a href="#">테니스</a></li>
+                                    <li><a href="#">골프</a></li>
+                                    <li><a href="#">스케이트보딩</a></li>
+                                    <li><a href="#">수영</a></li>
+                                    <li><a href="#">사이클링</a></li>
+                                    <li><a href="#">야구</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="name">SALE</a>
+                            <div class="sub">
+                                <ul>
+                                    <li><a href="#"><span>SALE</span></a></li>
+                                    <li><a href="#"><em>20~30%</em>할인</a></li>
+                                    <li><a href="#"><em>30~40%</em>할인</a></li>
+                                    <li><a href="#"><em>40~50%</em>할인</a></li>
+                                    <li><a href="#"><em>50%</em>이상 할인</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="nav_right">
+                        <form action="#" method="get" id="searchfrm">
+                            <fieldset>
+                                <legend class="skip">검색양식</legend>
+                                <input type="text" placeholder="Search" id="search">
+                                <button type="button" class="search_btn"><img src="./imges/search.png" alt=""></button>
+                            </fieldset>
+                        </form>
+                        <div class="user">
+                            <a href="#" class="login"><img src="./imges/user.png" alt=""></a>
+                            <a href="#" class="like"><img src="./imges/like.png" alt=""></a>
+                            <a href="#" class="cart"><img src="./imges/cart.png" alt=""></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="m_nav_open"><!--모바일 메뉴 열기-->
+                <button type="button" id="close" title="메뉴닫기(모바일)">
+                    <img src="./imges/close.png" alt="">
+                </button>
                 <ul>
                     <li>
-                        <a href="#" class="name">MEN</a>
-                        <div class="sub">
-                            <ul>
-                                <li><a href="#">베스트 셀러</a></li>
-                                <li><a href="#">신상품</a></li>
-                                <li><a href="#">Y-3 Collection</a></li>
-                                <li><a href="#">Impossible is Nothing</a></li>
-                                <li><a href="#">SEOUL</a></li>
-                                <li><a href="#">SPECIAL DROP</a></li>
-                                <li><a href="#">Only at adidas</a></li>
-                                <li><a href="#">아디다스 블로그</a></li>
-                                <li><a href="#">세일</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>신발</span></a></li>
-                                <li><a href="#">오리지널스</a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">슬러퍼/샌들</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">8만원 이하 제품</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>의류</span></a></li>
-                                <li><a href="#">자켓</a></li>
-                                <li><a href="#">축구 저지</a></li>
-                                <li><a href="#">후디/스웨트셔츠</a></li>
-                                <li><a href="#">티셔츠</a></li>
-                                <li><a href="#">트랙수트/트랙탑</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">팬츠</a></li>
-                                <li><a href="#">반바지</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>용품</span></a></li>
-                                <li><a href="#">양말</a></li>
-                                <li><a href="#">모자</a></li>
-                                <li><a href="#">가방</a></li>
-                                <li><a href="#">공</a></li>
-                                <li><a href="#">장갑</a></li>
-                                <li><a href="#">벨트</a></li>
-                                <li><a href="#">헤드폰</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>스포츠</span></a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">수영</a></li>
-                                <li><a href="#">사이클링</a></li>
-                                <li><a href="#">야구</a></li>
-                            </ul>
-                        </div>
+                        <a href="#" class="m_name">MEN<img src="./imges/m_next.png" alt=""></a>
+                        <!-- <ul class="m_sub1">
+                            <li><a href="#">신발<img src="./imges/m_next.png" alt=""></a></li>
+                            <li><a href="#">의류<img src="./imges/m_next.png" alt=""></a></li>
+                            <li><a href="#">용품<img src="./imges/m_next.png" alt=""></a></li>
+                            <li><a href="#">스포츠<img src="./imges/m_next.png" alt=""></a></li>
+                        </ul> -->
                     </li>
                     <li>
-                        <a href="#" class="name">WOMEN</a>
-                        <div class="sub">
-                            <ul>
-                                <li><a href="#">베스트 셀러</a></li>
-                                <li><a href="#">신상품</a></li>
-                                <li><a href="#">Y-3 Collection</a></li>
-                                <li><a href="#">Impossible is Nothing</a></li>
-                                <li><a href="#">SEOUL</a></li>
-                                <li><a href="#">SPECIAL DROP</a></li>
-                                <li><a href="#">Only at adidas</a></li>
-                                <li><a href="#">아디다스 블로그</a></li>
-                                <li><a href="#">세일</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>신발</span></a></li>
-                                <li><a href="#">오리지널스</a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">슬러퍼/샌들</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">8만원 이하 제품</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>의류</span></a></li>
-                                <li><a href="#">자켓</a></li>
-                                <li><a href="#">축구 저지</a></li>
-                                <li><a href="#">후디/스웨트셔츠</a></li>
-                                <li><a href="#">티셔츠</a></li>
-                                <li><a href="#">트랙수트/트랙탑</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">팬츠</a></li>
-                                <li><a href="#">반바지</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>용품</span></a></li>
-                                <li><a href="#">양말</a></li>
-                                <li><a href="#">모자</a></li>
-                                <li><a href="#">가방</a></li>
-                                <li><a href="#">공</a></li>
-                                <li><a href="#">장갑</a></li>
-                                <li><a href="#">벨트</a></li>
-                                <li><a href="#">헤드폰</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>스포츠</span></a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">수영</a></li>
-                                <li><a href="#">사이클링</a></li>
-                                <li><a href="#">야구</a></li>
-                            </ul>
-                        </div>
+                        <a href="#" class="m_name">WOMEN<img src="./imges/m_next.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#" class="name">KIDS</a>
-                        <div class="sub">
-                            <ul>
-                                <li><a href="#">베스트 셀러</a></li>
-                                <li><a href="#">신상품</a></li>
-                                <li><a href="#">Y-3 Collection</a></li>
-                                <li><a href="#">Impossible is Nothing</a></li>
-                                <li><a href="#">SEOUL</a></li>
-                                <li><a href="#">SPECIAL DROP</a></li>
-                                <li><a href="#">Only at adidas</a></li>
-                                <li><a href="#">아디다스 블로그</a></li>
-                                <li><a href="#">세일</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>신발</span></a></li>
-                                <li><a href="#">오리지널스</a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">슬러퍼/샌들</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">8만원 이하 제품</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>의류</span></a></li>
-                                <li><a href="#">자켓</a></li>
-                                <li><a href="#">축구 저지</a></li>
-                                <li><a href="#">후디/스웨트셔츠</a></li>
-                                <li><a href="#">티셔츠</a></li>
-                                <li><a href="#">트랙수트/트랙탑</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">팬츠</a></li>
-                                <li><a href="#">반바지</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>용품</span></a></li>
-                                <li><a href="#">양말</a></li>
-                                <li><a href="#">모자</a></li>
-                                <li><a href="#">가방</a></li>
-                                <li><a href="#">공</a></li>
-                                <li><a href="#">장갑</a></li>
-                                <li><a href="#">벨트</a></li>
-                                <li><a href="#">헤드폰</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>스포츠</span></a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">수영</a></li>
-                                <li><a href="#">사이클링</a></li>
-                                <li><a href="#">야구</a></li>
-                            </ul>
-                        </div>
+                        <a href="#" class="m_name">KIDS<img src="./imges/m_next.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#" class="name">SALE</a>
-                        <div class="sub">
-                            <ul>
-                                <li><a href="#">베스트 셀러</a></li>
-                                <li><a href="#">신상품</a></li>
-                                <li><a href="#">Y-3 Collection</a></li>
-                                <li><a href="#">Impossible is Nothing</a></li>
-                                <li><a href="#">SEOUL</a></li>
-                                <li><a href="#">SPECIAL DROP</a></li>
-                                <li><a href="#">Only at adidas</a></li>
-                                <li><a href="#">아디다스 블로그</a></li>
-                                <li><a href="#">세일</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>신발</span></a></li>
-                                <li><a href="#">오리지널스</a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">슬러퍼/샌들</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">8만원 이하 제품</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>의류</span></a></li>
-                                <li><a href="#">자켓</a></li>
-                                <li><a href="#">축구 저지</a></li>
-                                <li><a href="#">후디/스웨트셔츠</a></li>
-                                <li><a href="#">티셔츠</a></li>
-                                <li><a href="#">트랙수트/트랙탑</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">팬츠</a></li>
-                                <li><a href="#">반바지</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>용품</span></a></li>
-                                <li><a href="#">양말</a></li>
-                                <li><a href="#">모자</a></li>
-                                <li><a href="#">가방</a></li>
-                                <li><a href="#">공</a></li>
-                                <li><a href="#">장갑</a></li>
-                                <li><a href="#">벨트</a></li>
-                                <li><a href="#">헤드폰</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>스포츠</span></a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">수영</a></li>
-                                <li><a href="#">사이클링</a></li>
-                                <li><a href="#">야구</a></li>
-                            </ul>
-                        </div>
+                        <a href="#" class="m_name">SPORTS<img src="./imges/m_next.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#" class="name">SPORTS</a>
-                        <div class="sub">
-                            <ul>
-                                <li><a href="#">베스트 셀러</a></li>
-                                <li><a href="#">신상품</a></li>
-                                <li><a href="#">Y-3 Collection</a></li>
-                                <li><a href="#">Impossible is Nothing</a></li>
-                                <li><a href="#">SEOUL</a></li>
-                                <li><a href="#">SPECIAL DROP</a></li>
-                                <li><a href="#">Only at adidas</a></li>
-                                <li><a href="#">아디다스 블로그</a></li>
-                                <li><a href="#">세일</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>신발</span></a></li>
-                                <li><a href="#">오리지널스</a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">슬러퍼/샌들</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">8만원 이하 제품</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>의류</span></a></li>
-                                <li><a href="#">자켓</a></li>
-                                <li><a href="#">축구 저지</a></li>
-                                <li><a href="#">후디/스웨트셔츠</a></li>
-                                <li><a href="#">티셔츠</a></li>
-                                <li><a href="#">트랙수트/트랙탑</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">팬츠</a></li>
-                                <li><a href="#">반바지</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>용품</span></a></li>
-                                <li><a href="#">양말</a></li>
-                                <li><a href="#">모자</a></li>
-                                <li><a href="#">가방</a></li>
-                                <li><a href="#">공</a></li>
-                                <li><a href="#">장갑</a></li>
-                                <li><a href="#">벨트</a></li>
-                                <li><a href="#">헤드폰</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>스포츠</span></a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">수영</a></li>
-                                <li><a href="#">사이클링</a></li>
-                                <li><a href="#">야구</a></li>
-                            </ul>
-                        </div>
+                        <a href="#" class="m_name">BRANDS<img src="./imges/m_next.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#" class="name">BRANDS</a>
-                        <div class="sub">
-                            <ul>
-                                <li><a href="#">베스트 셀러</a></li>
-                                <li><a href="#">신상품</a></li>
-                                <li><a href="#">Y-3 Collection</a></li>
-                                <li><a href="#">Impossible is Nothing</a></li>
-                                <li><a href="#">SEOUL</a></li>
-                                <li><a href="#">SPECIAL DROP</a></li>
-                                <li><a href="#">Only at adidas</a></li>
-                                <li><a href="#">아디다스 블로그</a></li>
-                                <li><a href="#">세일</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>신발</span></a></li>
-                                <li><a href="#">오리지널스</a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">슬러퍼/샌들</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">8만원 이하 제품</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>의류</span></a></li>
-                                <li><a href="#">자켓</a></li>
-                                <li><a href="#">축구 저지</a></li>
-                                <li><a href="#">후디/스웨트셔츠</a></li>
-                                <li><a href="#">티셔츠</a></li>
-                                <li><a href="#">트랙수트/트랙탑</a></li>
-                                <li><a href="#">스포츠웨어</a></li>
-                                <li><a href="#">팬츠</a></li>
-                                <li><a href="#">반바지</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>용품</span></a></li>
-                                <li><a href="#">양말</a></li>
-                                <li><a href="#">모자</a></li>
-                                <li><a href="#">가방</a></li>
-                                <li><a href="#">공</a></li>
-                                <li><a href="#">장갑</a></li>
-                                <li><a href="#">벨트</a></li>
-                                <li><a href="#">헤드폰</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><span>스포츠</span></a></li>
-                                <li><a href="#">러닝</a></li>
-                                <li><a href="#">아웃도어</a></li>
-                                <li><a href="#">트레이닝</a></li>
-                                <li><a href="#">축구</a></li>
-                                <li><a href="#">농구</a></li>
-                                <li><a href="#">테니스</a></li>
-                                <li><a href="#">골프</a></li>
-                                <li><a href="#">스케이트보딩</a></li>
-                                <li><a href="#">수영</a></li>
-                                <li><a href="#">사이클링</a></li>
-                                <li><a href="#">야구</a></li>
-                            </ul>
-                        </div>
+                        <a href="#" class="m_name">SALE<img src="./imges/m_next.png" alt=""></a>
                     </li>
                 </ul>
-                <!-- <div class="nav_bg"></div> -->
-                <div class="nav_right">
-                    <form action="#" method="get" id="searchfrm">
-                        <fieldset>
-                            <legend class="skip">검색양식</legend>
-                            <input type="text" placeholder="Search" id="search">
-                            <button type="button" class="search_btn"><img src="./imges/search.png" alt=""></button>
-                        </fieldset>
-                    </form>
-                    <div class="user">
-                        <a href="#" class="login"><img src="./imges/user.png" alt=""></a>
-                        <a href="#" class="like"><img src="./imges/like.png" alt=""></a>
-                        <a href="#" class="cart"><img src="./imges/cart.png" alt=""></a>
+            </div>
+    </header>
+    <main><!--메인 시작-->
+        <div class="swiper" id="banner_slide"><!--베너 슬라이드-->
+            <!--.swiper-wrapper 슬라이드 한장 한장을 묶어주는 슬라이드 영역 틀-->
+            <div class="swiper-wrapper">
+                <!--.swiper-slide 슬라이드 개별 한장 부모-->
+                <div class="swiper-slide slide1">
+                    <div class="txt">
+                        <h2>ICONS: SAMBA</h2>
+                        <p>끊임없는 변화 속 흔들리지 않는 클래식한 아이템<br>
+                        삼바와 함께 당신만의 아이코닉한 스타일을<br>
+                        만들어보세요</p>
+                        <div class="bn_bt">
+                            <button type="button" class="bt"><span>구매하기</span><img src="./imges/right.png" alt=""></button>
+                        </div>
                     </div>
                 </div>
-            </nav>
-    </header>
-    <main>
-        
+                <div class="swiper-slide slide2">
+                    <div class="txt">
+                        <h2>ADIDAS ORIGINALS X THE<br>SIMPSONS</h2>
+                        <p>아디다스 오리지널스와 스프링필드가 가장 사랑하는 심슨<br>
+                        가족과의 만남
+                        </p>
+                        <div class="bn_bt">
+                            <button type="button" class="bt"><span>구매하기</span><img src="./imges/right.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <div class="txt">
+                        <h2>YEEZY</h2>
+                        <p>AUG 16 - AUG 22 2023</p>
+                        <div class="bn_bt">
+                            <button type="button" class="bt"><span>구매하기</span><img src="./imges/right.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+            <section id="container"><!--상품들-->
+                <div class="item_txt">
+                    <h2>새학기 가방</h2>
+                    <a href="#">제품더보기</a>
+                </div>
+                <div class="contents contents1">
+                    <div class="item item1">
+                        <div class="item_top">
+                            <a href="#" class="item_img"><img src="./imges/backpack1.jpg" alt="item"></a>
+                            <p class="like"><img src="./imges/like.png" alt="like"></p>
+                        </div>
+                        <div class="item_btm">
+                            <h3><a href="#"><span>NEW |</span> 프리미엄 에센셜 백팩</a></h3>
+                            <em>69,000 원</em>
+                            <p class="sub_n">originals</p>
+                            <p class="color">
+                                <span class="black"></span>
+                                <span class="blue"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <div class="item_top">
+                            <a href="#" class="item_img"><img src="./imges/backpack2.jpg" alt="item"></a>
+                            <p class="like"><img src="./imges/like.png" alt="like"></p>
+                        </div>
+                        <div class="item_btm">
+                            <h3><a href="#">파워 백팩</a></h3>
+                            <em>45,000 원</em>
+                            <p class="sub_n">키즈 Training</p>
+                            <p class="color">
+                                <span class="blue"></span>
+                                <span class="pink"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item item3">
+                        <div class="item_top">
+                            <a href="#" class="item_img"><img src="./imges/backpack3.jpg" alt="item"></a>
+                            <p class="like"><img src="./imges/like.png" alt="like"></p>
+                        </div>
+                        <div class="item_btm">
+                            <h3><a href="#">클래식 <span>BOS</span> 백팩</a></h3>
+                            <em>35,000 원</em>
+                            <p class="sub_n">Gym & Training</p>
+                            <p class="color">
+                                <span class="black"></span>
+                                <span class="blue"></span>
+                                <span class="green"></span>
+                                <span class="pink"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item item4">
+                        <div class="item_top">
+                            <a href="#" class="item_img"><img src="./imges/backpack4.jpg" alt="item"></a>
+                            <p class="like"><img src="./imges/like.png" alt="like"></p>
+                        </div>
+                        <div class="item_btm">
+                            <h3><a href="#"><span>NEW |</span> 클래식<span> GEN Z</span> 백팩 <span>XS</span></a></h3>
+                            <em>45,000 원</em>
+                            <p class="sub_n">Women Gym & Training </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item_txt"><!--y2k패션-->
+                    <h2>Y2K 패션</h2>
+                    <a href="#">제품더보기</a>
+                </div>
+                <div class="contents contents2"><!--2아이템-->
+                    <div class="item item1">
+                        <div class="item_top">
+                            <a href="#" class="item_img"><img src="./imges/y2k1.jpg" alt="item"></a>
+                            <p class="like"><img src="./imges/like.png" alt="like"></p>
+                        </div>
+                        <div class="item_btm">
+                            <h3><a href="#">카고 팬츠</a></h3>
+                            <em>109,000 원</em>
+                            <p class="sub_n">Women originals</p>
+                            <p class="color">
+                                <span class="black"></span>
+                                <span class="basic"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <div class="item_top">
+                            <a href="#" class="item_img"><img src="./imges/y2k2.jpg" alt="item"></a>
+                            <p class="like"><img src="./imges/like.png" alt="like"></p>
+                        </div>
+                        <div class="item_btm">
+                            <h3><a href="#">아디컬러 클래식 쇼트 트레포일 티</a></h3>
+                            <em>45,000 원</em>
+                            <p class="sub_n">Women originals</p>
+                            <p class="color">
+                                <span class="black"></span>
+                                <span class="white"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item item3">
+                        <div class="item_top">
+                            <a href="#" class="item_img"><img src="./imges/y2k3.jpg" alt="item"></a>
+                            <p class="like"><img src="./imges/like.png" alt="like"></p>
+                        </div>
+                        <div class="item_btm">
+                            <h3><a href="#"><span>RPT-02 SOL</span>스포츠 온이어 헤드폰</a></h3>
+                            <em>345,000 원</em>
+                            <p class="sub_n">Running</p>
+                        </div>
+                    </div>
+                    <div class="item item4">
+                        <div class="item_top">
+                            <a href="#" class="item_img"><img src="./imges/y2k4.jpg" alt="item"></a>
+                            <p class="like"><img src="./imges/like.png" alt="like"></p>
+                        </div>
+                        <div class="item_btm">
+                            <h3><a href="#">풋볼 크롭탑</a></h3>
+                            <em>49,000 원</em>
+                            <p class="sub_n">Women originals</p>
+                            <p class="color">
+                                <span class="red"></span>
+                                <span class="aqua"></span>
+                                <span class="black"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="con_banner"><!--베너-->
+                    <a href="#" class="ban ban1">
+                        <h2>GET INTO VACATION MODE</h2>
+                        <h3>여름 휴가의 필수템</h3>
+                        <p>2개 이상 구매시 20% 할인, 4개 이상 구매시 30% 할인</p>
+                    </a>
+                    <a href="#" class="ban ban2">
+                        <h2>MESSI INFINITO PACK</h2>
+                        <h3>아르헨티나를 우승으로 이끈 메시 헌정<br>
+                        인피니트 팩</h3>
+                    </a>
+                    <a href="#" class="ban ban3">
+                        <h2>STREET CLASSICS</h2>
+                        <h3>스트릿 웨어의 클래식이 된<br>
+                        오리지널 슈즈를 만나보세요.</h3>
+                    </a>
+            </div>
+            <div class="tip_container"><!--tip-->
+                <h2>당신을 위한 아디다스의 스토리</h2>
+                <div class="tip_contents">
+                    <div class="tip tip1">
+                        <div class="tip_top">
+                            <p class="tip_img"><img src="./imges/tip1.png" alt="tip1"></p>
+                            <h3>운동 번아웃 예방 및 대처</h3>
+                            <p class="tip_txt">
+                            운동을 시작하기도 전에 벌써 지치는<br>
+                            듯한 기분이 드시나요?<br>
+                            트레이닝 번아웃의 증상과 예방 및<br>
+                            대처법에 대해 알아 두면 꾸준하게<br>
+                            운동을 즐 길 수 있습니다.
+                            </p>
+                        </div>
+                        <div class="tip_btn">
+                            <button type="button" id="tip_bt"><span>자세히 보기</span></button>
+                        </div>
+                    </div>
+                    <div class="tip tip2">
+                        <div class="tip_top">
+                            <p class="tip_img"><img src="./imges/tip2.png" alt="tip1"></p>
+                            <h3>나에게 딱 맞는 브라<br>
+                                사이즈 찾는 방법</h3>
+                            <p class="tip_txt">
+                                90%이상의 여성이 자신의 몸에 맞지<br>
+                                않는 속옷을 착용한다고 합니다.<br>
+                                아디다스의 속옷 핏 가이드와 함께 <br>
+                                여러분의 체형에 맞는 핏을<br>
+                                찾아보세요.
+                            </p>
+                        </div>
+                        <div class="tip_btn">
+                            <button type="button" id="tip_bt"><span>자세히 보기</span></button>
+                        </div>
+                    </div>
+                    <div class="tip tip3">
+                        <div class="tip_top">
+                            <p class="tip_img"><img src="./imges/tip3.png" alt="tip1"></p>
+                            <h3>HERE WE COME<br>
+                                SYDENEY: 여자 월드컵<br>
+                                방문기</h3>
+                            <p class="tip_txt">
+                                “여자 월드컵을 시드니 직관을 위한<br>
+                                우리의 여정의 시작”
+                            </p>
+                        </div>
+                        <div class="tip_btn">
+                            <button type="button" id="tip_bt"><span>자세히 보기</span></button>
+                        </div>
+                    </div>
+                    <div class="tip tip4">
+                        <div class="tip_top">
+                            <p class="tip_img"><img src="./imges/tip4.png" alt="tip1"></p>
+                            <h3>조소현의 시선을 통해 :<br>
+                                CHO SO HYUN</h3>
+                            <p class="tip_txt">
+                                “불가능은 없다!” 글로벌 스포츠<br>
+                                브랜드 아디다스의 슬로건이기도 한<br>
+                                명언에 가장 잘어울리는 조소현 선수
+                            </p>
+                        </div>
+                        <div class="tip_btn">
+                            <button type="button" id="tip_bt"><span>자세히 보기</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
+    <footer>
+        <div class="ft_top">
+            <ul>
+                <li>
+                    <a href="#" class="f_name">PRODUCTS</a>
+                    <a href="#">신상품</a>
+                    <a href="#">공식 아울렛</a>
+                </li>
+                <li>
+                    <a href="#" class="f_name">SPORTS</a>
+                    <a href="#">러닝</a>
+                    <a href="#">트레이닝</a>
+                    <a href="#">아웃도어</a>
+                    <a href="#">축구</a>
+                    <a href="#">골프</a>
+                    <a href="#">요가</a>
+                    <a href="#">테니스</a>
+                    <a href="#">농구</a>
+                    <a href="#">스케이트보딩</a>
+                    <a href="#">수영</a>
+                    <a href="#">사이클링</a>
+                </li>
+                <li>
+                    <a href="#" class="f_name">COMPANY
+                        INFO</a>
+                    <a href="#">회사소개</a>
+                    <a href="#">채용정보</a>
+                    <a href="#">아디다스 앱</a>
+                    <a href="#">컨펌드 앱</a>
+                    <a href="#">아디다스 블로그</a>
+                </li>
+                <li>
+                    <a href="#" class="f_name">MEMBERSHIP</a>
+                    <a href="#">아디클럽</a>
+                    <a href="#">adidas Runners</a>
+                </li>
+                <li>
+                    <a href="#" class="f_name">SUPPORT</a>
+                    <a href="#">고객센터, 심의수선</a>
+                    <a href="#">주문 / 배송 조회</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">구매 이용약관</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ft_midle">
+            <h3>FOLLOW US</h3>
+            <div class="sns">
+                <a href="#"><img src="./imges/facebook.png" alt=""></a>
+                <a href="#"><img src="./imges/inster.png" alt=""></a>
+                <a href="#"><img src="./imges/twitter.png" alt=""></a>
+                <a href="#"><img src="./imges/pinter.png" alt=""></a>
+                <a href="#"><img src="./imges/tiktok.png" alt=""></a>
+                <a href="#"><img src="./imges/youtube.png" alt=""></a>
+            </div>
+            <p>
+                아디다스코리아(유) | 서울특별시 서초구 서초대로 74길 4, 삼성생명 서초타워 23층 (06620) | 대표자: 곽근엽 | 사업자 등록번호: 214-81-07412 | 통신판매업신고:
+                2007-서울서초-10391 | 개인정보관리책임자: 장영태 | 호스팅서비스사업자: 아디다스코리아(유) | 고객센터: 1588-8241| 이메일:
+                service@onlineshop.adidas.co.kr 
+            </p>
+            
+        </div>
+        <div class="ft_bt">
+            <div class="tag">
+                <a href="#">쿠키설정</a>
+                <span></span>
+                <a href="#">구매 이용약관</a>
+                <span></span>
+                <a href="#">개인정보 처리방침</a>
+                <span></span>
+                <a href="#">아디클럽 이용약관</a>
+                <span></span>
+                <a href="#">사업자정보확인</a>
+                <span></span>
+                <a href="#">공정거래 주율준수</a>
+                <span></span>
+                <a href="#">채무지급보증안내</a>
+            </div>
+            <p>ⓒ adidas Korea, LLC. All Rights Reserved</p>
+        </div>
+    </footer>
     <script src="./js/index.js"></script>
 </body>
 </html>
