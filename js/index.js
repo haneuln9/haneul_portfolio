@@ -44,12 +44,3 @@ m_nav.addEventListener('click',function(){
 close.addEventListener('click',function(){
     m_nav_open.style.display = 'none'
 })
-// for(let i of m_sub1){i.style.display = 'none'}
-
-// for(let i of m_name){
-//     i.addEventListener('click',function(e){
-//         e.preventDefault()
-//         i.lastElementChild.style.display = 'block'
-        
-//     })
-// }

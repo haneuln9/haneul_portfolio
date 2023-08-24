@@ -100,6 +100,7 @@ main #container .contents {
     /* background:lightblue; */
     width:1380px; margin:0 auto;
     display:flex;
+    flex-flow:row wrap;
     justify-content:space-between;
 }
 main #container .contents .item {
@@ -254,16 +255,16 @@ main .tip_container .tip_contents .tip .tip_top .tip_txt {
 main .tip_container .tip_contents .tip .tip_btn {
     text-align: center;
 }
-main .tip_container .tip_contents .tip .tip_btn #tip_bt {
+main .tip_container .tip_contents .tip .tip_btn .tip_bt {
     border:1px solid #000;
     border-radius:20px;
     padding:7px 20px ;
     background:none;
 }
-main .tip_container .tip_contents .tip .tip_btn #tip_bt:hover {
+main .tip_container .tip_contents .tip .tip_btn .tip_bt:hover {
     background:#555454;
 }
-main .tip_container .tip_contents .tip .tip_btn #tip_bt span {
+main .tip_container .tip_contents .tip .tip_btn .tip_bt span {
     font-size:1.333rem;
     font-weight:600;
 }
