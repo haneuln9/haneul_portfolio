@@ -123,6 +123,7 @@ p span {
 }
 .item_details .details_content .item_cz .size .size_view .active{
     background: #aaa;
+    color:#fff;
 }
 .item_details .details_content .item_cz .size .size_view > a > span {
     font-size:1.333rem;

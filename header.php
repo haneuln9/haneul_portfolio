@@ -268,7 +268,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="./product_list.html" class="name"><span>BRANDS</span></a>
+                            <a href="./prouduct_list.html" class="name"><span>BRANDS</span></a>
                             <div class="sub">
                                 <ul>
                                     <li><a href="#">베스트 셀러</a></li>
@@ -334,7 +334,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="./product_list.html" class="name">SALE</a>
+                            <a href="./prouduct_list.html" class="name">SALE</a>
                             <div class="sub">
                                 <ul>
                                     <li><a href="#"><span>SALE</span></a></li>
@@ -368,7 +368,7 @@
                 </button>
                 <ul>
                     <li>
-                        <a href="#" class="m_name">MEN<img src="./imges/m_next.png" alt=""></a>
+                        <a href="./prouduct_list.html" class="m_name">MEN<img src="./imges/m_next.png" alt=""></a>
                         <!-- <ul class="m_sub1">
                             <li><a href="#">신발<img src="./imges/m_next.png" alt=""></a></li>
                             <li><a href="#">의류<img src="./imges/m_next.png" alt=""></a></li>
@@ -377,10 +377,10 @@
                         </ul> -->
                     </li>
                     <li>
-                        <a href="./product_list.html" class="m_name">WOMEN<img src="./imges/m_next.png" alt=""></a>
+                        <a href="./prouduct_list.html" class="m_name">WOMEN<img src="./imges/m_next.png" alt=""></a>
                     </li>
                     <li>
-                        <a href="#" class="m_name">KIDS<img src="./imges/m_next.png" alt=""></a>
+                        <a href="./prouduct_list.html" class="m_name">KIDS<img src="./imges/m_next.png" alt=""></a>
                     </li>
                     <li>
                         <a href="#" class="m_name">SPORTS<img src="./imges/m_next.png" alt=""></a>
