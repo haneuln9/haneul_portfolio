@@ -1,6 +1,6 @@
 
 .choice {
-    background:lightcoral;
+    /* background:lightcoral; */
     padding:50px 0;
     width:1380px;
     margin:0 auto;
@@ -175,6 +175,16 @@
     background:#fff;
     border:1px solid #000;
 }
+.best_item .swiper_box .swiper-button-prev {
+background:url(../imges/pro_img/prev.png) no-repeat;
+left:-20px;
+}
+.best_item .swiper_box .swiper-button-next {
+    background: url(../imges/pro_img/next.png) no-repeat;
+    right:-20px
+}
+.best_item .swiper_box .swiper-button-prev::after,
+.best_item .swiper_box .swiper-button-next::after {display:none;}
     /*----------------- NEW 아이템 슬라이드-----------------------------*/
 .best_item #b_item_slide2 {
     width:1400px; margin:0 auto;
@@ -200,7 +210,9 @@
 }
 .best_item #b_item_slide2 .swiper-wrapper .swiper-slide .item .item_top .b_number p img {}
 .best_item #b_item_slide2 .swiper-wrapper .swiper-slide .item .item_top a {}
-.best_item #b_item_slide2 .swiper-wrapper .swiper-slide .item .item_top a img {}
+.best_item #b_item_slide2 .swiper-wrapper .swiper-slide .item .item_top a img {
+    width:100%;
+}
 .best_item #b_item_slide2 .swiper-wrapper .swiper-slide .item .item_btm {}
 .best_item #b_item_slide2 .swiper-wrapper .swiper-slide .item .item_btm h3 {
     font-weight:700;
@@ -239,6 +251,16 @@
 .best_item #b_item_slide2 .swiper-wrapper .swiper-slide .item .item_btm .color .white {
     background:#fff;
     border:1px solid #000;}
+    .best_item .swiper_box2 .swiper-button-prev {
+        background:url(../imges/pro_img/prev.png) no-repeat;
+        left:-20px;
+        }
+        .best_item .swiper_box2 .swiper-button-next {
+            background: url(../imges/pro_img/next.png) no-repeat;
+            right:-20px
+        }
+        .best_item .swiper_box2 .swiper-button-prev::after,
+        .best_item .swiper_box2 .swiper-button-next::after {display:none;}
 /*-------------------------------------------아이템 전체 ----------------------*/
 .contener_all_item {
     max-width:1380px;margin:0 auto;
@@ -266,13 +288,14 @@
     margin:0 30px;
 }
 .all_item {
-    background:lightcoral;
+    /* background:lightcoral; */
     display:flex;
     flex-flow:row wrap;
     justify-content:space-between;
+    border-bottom:1px solid #aaa;
 }
 .all_item .item {
-    background:lightblue;
+    /* background:lightblue; */
     width:330px; 
     margin-bottom:100px;
 }
@@ -321,6 +344,7 @@
 
     max-width:1380px; margin:0 auto;
     display:flex;
+    flex-flow:row wrap;
     justify-content:space-between;
     align-items:center;
 }
