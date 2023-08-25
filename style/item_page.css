@@ -1,4 +1,5 @@
 .item_details {
+    padding-top:200px;
     margin:0 auto;
     max-width:1380px;
     display: flex;
@@ -179,6 +180,7 @@ p span {
     justify-content:space-between;
     max-width:1380px; margin:0 auto;
     border-top:5px solid #000;
+    padding-bottom:200px;
 
 }
 

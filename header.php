@@ -20,7 +20,7 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="./product_list.html" class="name">MEN</a>
+                            <a href="./prouduct_list.html" class="name">MEN</a>
                             <div class="sub">
                                 <ul class="sub_1">
                                     <li><a href="#">베스트 셀러</a></li>
@@ -86,7 +86,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="./product_list.html" class="name">WOMEN</a>
+                            <a href="./prouduct_list.html" class="name">WOMEN</a>
                             <div class="sub">
                                 <ul class="sub_1">
                                     <li><a href="#">베스트 셀러</a></li>
@@ -154,7 +154,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="./product_list.html" class="name">KIDS</a>
+                            <a href="./prouduct_list.html" class="name">KIDS</a>
                             <div class="sub">
                                 <ul class="sub_1">
                                     <li><a href="#">베스트 셀러</a></li>
@@ -202,7 +202,7 @@
                         </li>
                         
                         <li>
-                            <a href="./product_list.html" class="name"><span>SPORTS</span></a>
+                            <a href="./prouduct_list.html" class="name"><span>SPORTS</span></a>
                             <div class="sub">
                                 <ul>
                                     <li><a href="#">베스트 셀러</a></li>
