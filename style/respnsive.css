@@ -9,11 +9,11 @@
     header .top nav .nav_right #searchfrm fieldset {background:none;}
     /*product*/
     .choice, #men_banner_slide, .best_item, .contenter_all_item, .pro_bt {max-width:calc(100% - 15px);}
-    .best_item .swiper_box{width:calc(100% - 60px);}
-    .best_item #b_item_slide{width: calc(100% - 30px);}
-    .best_item .swiper_box2{width:calc(100% - 60px);}
-    .best_item #b_item_slide2{width: calc(100% - 30px);}
-    #men_banner_slide {width:calc(100% - 30px);}
+    .best_item .swiper_box{max-width:calc(100% - 60px);}
+    .best_item #b_item_slide{max-width: calc(100% - 30px);}
+    .best_item .swiper_box2{max-width:calc(100% - 60px);}
+    .best_item #b_item_slide2{max-width: calc(100% - 30px);}
+    #men_banner_slide {max-width:calc(100% - 30px);}
 }
 /*1010px 이하일때*/
 @media screen and (max-width:1100px) {
@@ -74,5 +74,4 @@
 /*750px 이하일때*/
 @media screen and (max-width:750px){
     header .top nav ul {display:none;}
-    /*product*/
 }

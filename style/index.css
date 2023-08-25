@@ -2,6 +2,7 @@
 /*---------------------------메인--------------------------------------*/
 main {
     margin:0 auto;
+    min-width:770px;
 }
 main #banner_slide {max-width:1440px; height:600px;}
 main #banner_slide .swiper-wrapper {}
@@ -56,14 +57,17 @@ main #banner_slide .swiper-wrapper .swiper-slide .txt .bn_bt .bt img {
 main #banner_slide .swiper-wrapper .slide1 {
     background:url(../imges/top_banner1.jpg);
     background-size:cover;
+    background-position:right;
 }
 main #banner_slide .swiper-wrapper .slide2 {
     background:url(../imges/top_banner2.jpg)center no-repeat;
     background-size:cover;
+    background-position:center;
 }
 main #banner_slide .swiper-wrapper .slide3 {
     background:url(../imges/top_banner3.jpg) no-repeat;
     background-size:cover;
+    background-position:right;
 }
 main #banner_slide .swiper-scrollbar {
     left:30%; bottom:30px;

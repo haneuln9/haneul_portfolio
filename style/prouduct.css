@@ -1,3 +1,8 @@
+.choice,
+.swiper,
+.best_item,
+.contener_all_item,
+.pro_bt {min-width:770px;}
 
 .choice {
     /* background:lightcoral; */
@@ -40,23 +45,32 @@
 #men_banner_slide .swiper-wrapper .slide1 {
     background:url(../imges/pro_img/best_banner1.jpg);
     background-size:cover;
+    background-position:right;
 }
 #men_banner_slide .swiper-wrapper .slide2 {
     background:url(../imges/pro_img/best_banner3.jpg);
     background-size:cover;
+    background-position:center;
 }
 #men_banner_slide .swiper-wrapper .slide3 {
     background:url(../imges/pro_img/best_banner2.jpg);
     background-size:cover;
+    background-position:right;
 }
 #men_banner_slide .swiper-wrapper .slide4 {
     background:url(../imges/pro_img/best_banner4.jpg);
     background-size:cover;
+    background-position:right;
 }
 #men_banner_slide .swiper-wrapper .swiper-slide h2 {
     font-size:2.5rem;
     letter-spacing: -0.84px;
+    padding-bottom:10px;
 }
+#men_banner_slide .swiper-wrapper .slide1 h2 {color:#fff;}
+#men_banner_slide .swiper-wrapper .slide1 p {color:#fff;}
+#men_banner_slide .swiper-wrapper .slide3 h2 {color:#fff;}
+#men_banner_slide .swiper-wrapper .slide3 p {color:#fff;}
 #men_banner_slide .swiper-wrapper .swiper-slide p {
     font-size:1.333rem;
     font-weight:500;

@@ -1,5 +1,7 @@
+.item_details,
+.item_details_bt {min-width:770px;}
 .item_details {
-    padding-top:200px;
+    padding-top:100px;
     margin:0 auto;
     max-width:1380px;
     display: flex;
