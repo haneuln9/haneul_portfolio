@@ -14,6 +14,7 @@
     .best_item .swiper_box2{max-width:calc(100% - 60px);}
     .best_item #b_item_slide2{max-width: calc(100% - 30px);}
     #men_banner_slide {max-width:calc(100% - 30px);}
+    .item_details { max-width:calc(100% - 60px);}
 }
 /*1010px 이하일때*/
 @media screen and (max-width:1100px) {
@@ -54,8 +55,16 @@
     footer .ft_bt .tag > a {
     font-size:0.75rem;
     }
-    /*product*/
-
+    /*item_page*/
+    .item_details .details_img .main_img img{
+        width:500px; height:500px;
+    }
+    .item_details .details_img .sub_img img {
+        width:150px;height:150px;
+    }
+    .item_details_bt .details h3 {
+        width:300px;
+    }
 }
 /*1050 이하일 때*/
 @media screen and (max-width:1050px){
