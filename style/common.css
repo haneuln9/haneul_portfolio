@@ -142,10 +142,10 @@ header nav .nav_right .user a {
 header nav .nav_right .user a img {width:24px; height:24px;}
 /*--------------------------------------헤더 끝-------------------------*/
 /*-------------------------------------------모바일 네비-------------------------------*/
-/*--------데스크 탑에서 숨기기----*/
 header .m_nav {
     display:none;
 }
+/*--------데스크 탑에서 숨기기----*/
 header .m_nav span{}
 header .m_nav_open {
     background:#fff;
